@@ -7,7 +7,7 @@
 }
 
 body {
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 /* Header Rules */
@@ -129,7 +129,7 @@ header {
 /* Main Rules */
 
 main {
-    height: 2300px;    
+    /* height: 2300px;     */
 }
 
     section {
@@ -212,7 +212,7 @@ main {
 
 /* Footer Rules */
 footer {
-    height: 700px;
+    height: 1090px;
     background-color: #000f1f;
 }
 
