@@ -283,7 +283,7 @@ footer {
     /* Sign-in Section Rules */
 
     #sign-in {
-        max-width: 80%;
+        width: 80%;
         margin: 0 auto;
         border-top: 1px solid #2a5fd1;
         display: flex;
@@ -294,12 +294,12 @@ footer {
         #sign-in-btn {
             width: 100px;
             background-color: #2a5fd1;
-            border-radius: 15px;
+            border-radius: 20px;
+            padding: 10px;
+            text-align: center;
         }
 
         #sign-in-btn a {
             color: #fff;
             text-decoration: none;
-            padding: 10px;
-            text-align: center;
         }
