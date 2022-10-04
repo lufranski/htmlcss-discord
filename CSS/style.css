@@ -17,8 +17,7 @@ header {
     background-image: url("../img/jumbo.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    /* DEBUG */
-    /* background-color: greenyellow; */
+    
 }
 
     /* Navigation Rules */
@@ -29,9 +28,7 @@ header {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        /* DEBUG */
-        /* background-color: #0261c7; */
-        /* border: 1px solid black;  */
+        
     }
 
         #logo {
@@ -74,16 +71,10 @@ header {
         height: 70%;
         width: 60%;
         margin: 0 auto;
-        /* DEBUG */
-        /* background-color: #0261c7; */
-        /* border: 1px solid black; */
     }
 
     #download-section div {
         text-align: center;
-        /* color: #fff; */
-        /* DEBUG */
-        /* border: 1px solid black; */
         height: 30%;
     }
 
@@ -161,7 +152,6 @@ main {
                 width: 60%;
                 height: 100%;
                 padding-left: 130px;
-                background-color: pink;
             }
 
                 .photo {
@@ -171,7 +161,6 @@ main {
             .small-col {
                 width: 40%;
                 height: 100%;
-                background-color: blue;
                 padding-top: 50px;
             }
 
@@ -224,7 +213,6 @@ main {
 /* Footer Rules */
 footer {
     height: 700px;
-    /* DEBUG */
     background-color: #000f1f;
 }
 
@@ -234,8 +222,6 @@ footer {
         height:550px;
         display: flex;
         justify-content: space-between;
-        /* DEBUG */
-        /* border-bottom: 1px solid #2a5fd1; */
         margin: 0 auto;
         padding-top: 50px;
     }
@@ -243,8 +229,6 @@ footer {
         #credits {
         max-width: 300px;
         max-height: 300px;
-        /* DEBUG */
-        /* border: 1px solid white; */
         }
 
             #caption {
@@ -261,8 +245,7 @@ footer {
         /* Credits Section Rules */
         #credits div {
             height: calc(100% / 3);
-            /* DEBUG */
-            /* border: 1px solid white; */
+            
         }
 
         #italian-flag {
@@ -283,10 +266,7 @@ footer {
     #bot-nav nav {
         max-width: 200px;
         height: 60%;
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* DEBUG */
-        /* border: 1px solid white; */
+        
     }
 
         /* Navigation Rules */
@@ -324,6 +304,7 @@ footer {
 
         #sign-in-btn {
             width: 100px;
+            height: 40px;
             background-color: #2a5fd1;
             border-radius: 20px;
             padding: 10px;
