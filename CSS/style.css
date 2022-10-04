@@ -138,57 +138,88 @@ header {
 /* Main Rules */
 
 main {
-    height: 1000px;
-    /* DEBUG */
-    /* background-color: aqua; */
+    height: 2300px;    
 }
 
-    /* Features Section Rules */
-    .row {
-        width: 100%;
-        height: 200px;
-        /* DEBUG */
-        /* background-color: black; */
-    }
-    
-    .grey {
-        background-color: #d7d8d9;
-    }
-    
-        /* Row Rules */
-        .feature {
-            width: 80%;
+    section {
+        height: 500px;
+    }    
+
+    .bg-gray{
+        background-color: lightgray;
+    }    
+        .section-container {
             margin: 0 auto;
-            height: 200px;
+            max-width: 1200px;
+            height: 100%;
+            padding: 50px 0;
             display: flex;
-            /* DEBUG */
-            border: 1px solid black;
+            justify-content: space-between;
         }
 
-        .feature div {
-            width: 50%;
+            .big-col {
+                width: 60%;
+                height: 100%;
+                padding-left: 130px;
+                background-color: pink;
+            }
+
+                .photo {
+                    height: 400px;
+                }
+
+            .small-col {
+                width: 40%;
+                height: 100%;
+                background-color: blue;
+                padding-top: 50px;
+            }
+
+                .title {
+                    font-size: 50px;
+                }
+
+                .subtitle {
+                    font-size: 20px;
+                }
+
+        #bot-container {
+            max-width: 1200px;
+            margin: 0 auto;
             height: 100%;
-            /* DEBUG */
-            border: 1px solid black;
+            padding: 50px 0;
         }
 
-        /* Columns Rules */
-        .col {
-            width:100%;
-            height: 200px;
+    #bot-gray {
+        background-color: lightgray;
+        height: 900px;    
+    }
+        
+        #bot-container {
+            text-align: center;
         }
 
-        .vertical {
-            flex-direction: column;
-            align-items: center;
-            /* DEBUG */
-            border: 1px solid black;
+        #adventure {
+            max-width: 800px;
+            margin: 0 auto;
+            background-image: url(../img/stars.svg);
+            background-size: cover;
         }
 
-        .vertical div {
-            width: 100%;
-            height: 100%;
-        }
+            #bot-mac-dwn {
+                width: 200px;
+                height: 50px;
+                padding-top: 15px;
+                background-color: #2a5fd1;
+                border-radius: 20px;
+                margin: 0 auto;
+            }
+
+                #bot-mac-dwn a {
+                    text-decoration: none;
+                    color: #fff;
+                    font-size: 20px;
+                }
 
 /* Footer Rules */
 footer {
