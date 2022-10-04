@@ -192,7 +192,7 @@ main {
 
 /* Footer Rules */
 footer {
-    height: 30%;
+    height: 700px;
     /* DEBUG */
     background-color: #000f1f;
 }
@@ -200,32 +200,106 @@ footer {
     /* Navigation Section Rules */
     #bot-nav {
         width: 80%;
-        height:90%;
+        height:550px;
         display: flex;
+        justify-content: space-between;
         /* DEBUG */
-        border: 1px solid white;
-        margin: auto;
+        /* border-bottom: 1px solid #2a5fd1; */
+        margin: 0 auto;
+        padding-top: 50px;
     }
 
-    #credits {
-        width: 25%;
-        height: 60%;
+        #credits {
+        max-width: 300px;
+        max-height: 300px;
         /* DEBUG */
-        border: 1px solid white;
-    }
+        /* border: 1px solid white; */
+        }
+
+            #caption {
+                font-size: 35px;
+                color: #2a5fd1;
+                max-height: 100px;
+            }
+
+            #lang,#social {
+                max-height: 50px;
+                padding-top: 15px;
+            }
 
         /* Credits Section Rules */
         #credits div {
             height: calc(100% / 3);
             /* DEBUG */
-            border: 1px solid white;
+            /* border: 1px solid white; */
         }
 
+        #italian-flag {
+            max-height: 15px;
+        }
+
+
+            #lang a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+        #social {
+            color: #fff;
+            font-size: 20px;
+        }
+            
     #bot-nav nav {
-        width: 20%;
+        max-width: 200px;
         height: 60%;
-        display: flex;
-        flex-direction: column;
+        /* display: flex; */
+        /* flex-direction: column; */
         /* DEBUG */
-        border: 1px solid white;
+        /* border: 1px solid white; */
     }
+
+        /* Navigation Rules */
+
+        nav div {
+            color: #fff;
+        }
+
+        .link a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+        }
+
+        .link {
+            margin-top: 10px;
+        }
+
+        .title a {
+            text-decoration: none;
+            color:#2a5fd1;
+            font-size: 20px;
+        }
+
+    /* Sign-in Section Rules */
+
+    #sign-in {
+        max-width: 80%;
+        margin: 0 auto;
+        border-top: 1px solid #2a5fd1;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+
+        #sign-in-btn {
+            width: 100px;
+            background-color: #2a5fd1;
+            border-radius: 15px;
+        }
+
+        #sign-in-btn a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            text-align: center;
+        }
