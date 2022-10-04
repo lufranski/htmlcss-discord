@@ -58,10 +58,16 @@ header {
             color: #04013d;
         }
 
+        #log-in a {
+            text-decoration: none;
+            color: #04013d;
+        }
+
         #nav-bar li a {
             color: #fff;
             text-decoration: none;
         }
+
 
     /* Download Section Rules */
     #download-section {
@@ -100,23 +106,34 @@ header {
         align-items: center;
     }
 
-    #mac-dwn {
+        
+    #dwn a {
+        text-decoration: none;
+        color:#fff;
+    }
+
+    #mac-dwn a {
+        color: #1f1d36;
+    }
+        
+        #mac-dwn {
         width: 20%;
         background-color: #fff;
         border: 1px solid #fff;
-        border-radius: 10px;
+        border-radius: 20px;
         color: #1f1d36;
         padding: 5px;
-    }
+        }
 
-    #open-browser {
+        #open-browser {
         width: 30%;
         background-color: #1f1d36;
         border: 1px solid #1f1d36;
-        border-radius: 10px;
+        border-radius: 20px;
         color: #fff;
         padding: 5px;
-    }
+        }
+
 
 /* Main Rules */
 
