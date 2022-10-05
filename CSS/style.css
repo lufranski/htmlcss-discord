@@ -212,7 +212,7 @@ main {
 
 /* Footer Rules */
 footer {
-    height: 1090px;
+    height: 650px;
     background-color: #000f1f;
 }
 
@@ -300,6 +300,7 @@ footer {
         display: flex;
         justify-content: space-between;
         padding-top: 20px;
+        max-height: 50px;
     }
 
         #sign-in-btn {
